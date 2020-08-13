@@ -1,22 +1,19 @@
-/**/
 
 body{
   font-family: 'PT Sans', sans-serif;
   color: #010101;
 }
-
 /*Header Start*/
 header{
   background-color: #fcdb00;
   padding: 10px 0;
 }
-.logo{}
 .menu ul li a{
   font-weight: 700;
   font-size: 22px;
   color: #010101 !important;
   text-transform: capitalize;
-  padding: 0 35px !important;
+  padding: 0 55px !important;
   transition: .3s;
 }
 .menu ul li:last-child a{
@@ -26,3 +23,48 @@ header{
   color: #fff !important;
 }
 /*Header End*/
+
+/*Slider start*/
+.slider{
+   background-color: #fcdb00;
+   padding-bottom: 100px;
+}
+.cid {
+  bottom: -80px;
+}
+.cid li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.s_content{
+   margin-top: 60px;
+}
+.s_content h1{
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+}
+.s_content h2{
+  font-weight: 400;
+  font-size: 20px;
+  color: #313841;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.s_content p{
+  color: #555555;
+  margin-bottom: 30px;
+  word-spacing: 1px;
+}
+.s_icon li i {
+  font-size: 42px;
+  margin-right: 20px;
+  transition: .3s;
+}
+.s_icon li i:hover{
+  color: white;
+  transform: scaleX(-1);
+}
+/*Slider End*/
